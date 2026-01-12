@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Error Handling Workshop</h2>
+        <p>This is how to handle (ERRORS) in Javascript</p>
+        <p id="error_message"></p>
+        <script>
+            try {
+                addalert("Welcome to our workshop let start, if you face any error do this, catch it, but if you're don't like our workshop just leave  :/ :/ :)");
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
